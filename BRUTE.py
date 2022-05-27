@@ -1,4 +1,3 @@
-import time
 import itertools
 import string
 
