@@ -2,6 +2,8 @@ import time
 import itertools
 import string
 
+password = input('Please enter your password: ')
+
 def guess_password(real):
     chars = string.ascii_letters + string.digits + string.punctuation
     attempts = 0
@@ -14,4 +16,4 @@ def guess_password(real):
             print(guess, attempts)
 		
 
-print(guess_password('Henking21?!'))
+print(guess_password('password'))
